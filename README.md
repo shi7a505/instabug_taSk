@@ -1,4 +1,4 @@
-# 🔐 Instabug Task – SealedSecrets Automation
+# 🔐 Task – SealedSecrets Automation
 
 This project is a solution for the Instabug DevOps task.  
 It automates the process of re-encrypting all SealedSecrets in a Kubernetes cluster using `kubeseal`.
