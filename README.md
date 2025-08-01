@@ -43,7 +43,7 @@ See [`docs/RE-ENCRYPTION_PLAN.md`](docs/RE-ENCRYPTION_PLAN.md) for a detailed ex
 
 ---
 
-## 👤 Author
+##  Author
 
 Mahmoud Shiha  
 [GitHub Profile](https://github.com/Mahmoud-shi7a)
