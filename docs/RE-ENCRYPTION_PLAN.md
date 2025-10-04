@@ -191,7 +191,7 @@ To efficiently handle a large number of SealedSecrets:
 - The tool can generate a log file that includes:
   - Total number of secrets processed
   - Time taken per operation
-  - Skipped resources (if any)
+  - Skipped resources 
   - Errors and warnings
 - Logs help with troubleshooting and auditing the re-encryption process.
 
