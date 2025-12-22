@@ -1,26 +1,26 @@
-# 🔐 Task – SealedSecrets Automation
+#  Task – SealedSecrets Automation
 
 This project is a solution for the Instabug DevOps task.  
 It automates the process of re-encrypting all SealedSecrets in a Kubernetes cluster using `kubeseal`.
 
 ---
 
-## 🚀 Objective
+##  Objective
 
 The script scans all namespaces in the cluster for existing SealedSecrets, decrypts them using the original `private key`, then re-seals them with the updated `public key`.
 
 ---
 
-## ⚙️ Tools & Technologies
+##  Tools & Technologies
 
-- 🐧 Bash  
-- ☸️ Kubernetes  
-- 🔐 kubeseal (Bitnami SealedSecrets)  
-- 🛠️ kubectl
+-  Bash  
+-  Kubernetes  
+-  kubeseal (Bitnami SealedSecrets)  
+-  kubectl
 
 ---
 
-## 📝 Usage
+##  Usage
 
 > Make sure you have the following:
 - Access to the Kubernetes cluster
@@ -28,7 +28,7 @@ The script scans all namespaces in the cluster for existing SealedSecrets, decry
 - `kubeseal` installed
 - Old certificate available as `old-cert.pem`
 
-### 🔄 Run the script
+###  Run the script
 
 ```bash
 chmod +x convert.sh
